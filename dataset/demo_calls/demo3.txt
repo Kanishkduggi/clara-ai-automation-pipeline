@@ -1,0 +1,15 @@
+Company name: Guardian Fire Services
+
+Services:
+- fire alarm monitoring
+- sprinkler inspections
+- safety compliance checks
+
+Emergency situations:
+- active fire alarm
+- major sprinkler leak
+
+The office operates during normal business hours.
+
+Location:
+78 Safety Lane, Chicago

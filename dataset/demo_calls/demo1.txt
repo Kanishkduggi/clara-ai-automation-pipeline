@@ -1,0 +1,15 @@
+Company name: ABC Fire Protection
+
+They handle sprinkler inspections and fire alarm services.
+
+Emergency calls include:
+- sprinkler leak
+- fire alarm triggered
+
+Office hours:
+Monday to Friday
+9 AM to 5 PM
+Timezone: PST
+
+Office address:
+123 Industrial Street, Texas

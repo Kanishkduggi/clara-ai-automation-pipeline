@@ -1,0 +1,11 @@
+Company name: Elite Fire Systems
+
+The company installs and maintains fire protection systems.
+
+Services include:
+- fire alarm systems
+- sprinkler inspections
+
+Emergency situations include sprinkler leaks or active alarm systems.
+
+The business wants emergency calls routed to technicians.

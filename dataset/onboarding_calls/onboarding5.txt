@@ -1,0 +1,15 @@
+Company name: Metro Safety Solutions
+
+Business hours:
+Monday to Friday
+9 AM to 6 PM
+Timezone: EST
+
+Emergency definition:
+- water leaking from sprinkler
+- active building alarm
+
+Emergency calls should be transferred immediately.
+
+Office address:
+22 Industrial Park Road, New York

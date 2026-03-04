@@ -1,0 +1,55 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "be2caa51-e85c-44ab-a21d-801865e3fdf5",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "jsCode": "console.log(\"Running Clara AI automation pipeline\");\n\nreturn [\n  {\n    status: \"Pipeline triggered successfully\",\n    project: \"clara-ai-assignment\"\n  }\n];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        208,
+        0
+      ],
+      "id": "d919a612-fcef-4927-9a35-68f8cf8fc3ae",
+      "name": "Code in JavaScript"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "ce737043-48a6-4aa5-b978-5ebe42d28a29",
+  "meta": {
+    "instanceId": "8ba375fd490720d2ce9b7dfa9c88aed9517918d029ef143146cf3aa6e92eeacd"
+  },
+  "id": "NQz2u3p9jDozno3R",
+  "tags": []
+}

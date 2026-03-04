@@ -1,0 +1,17 @@
+Company name: SafeSprink Systems
+
+Confirmed business hours:
+Monday to Friday
+8 AM to 6 PM
+Timezone: PST
+
+Emergency definition:
+- sprinkler leak
+- active fire alarm
+
+Emergency calls must be transferred to the dispatch team.
+
+If transfer fails after 60 seconds, dispatch must be notified.
+
+Office address:
+400 Business Park Drive, California

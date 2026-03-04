@@ -1,0 +1,13 @@
+Company name: Metro Safety Solutions
+
+Services:
+- fire alarm repair
+- sprinkler inspection
+- fire safety equipment maintenance
+
+Emergency definition:
+- water leaking from sprinkler
+- building alarm going off
+
+Office located at:
+22 Industrial Park Road, New York

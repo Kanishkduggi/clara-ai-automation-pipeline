@@ -1,0 +1,16 @@
+{
+    "account_id": "be2ccdc1-1c0c-4bf0-9133-31d96ac39a4e",
+    "company_name": "",
+    "business_hours": {},
+    "office_address": "",
+    "services_supported": [],
+    "emergency_definition": [],
+    "emergency_routing_rules": {},
+    "non_emergency_routing_rules": {},
+    "call_transfer_rules": {},
+    "integration_constraints": [],
+    "after_hours_flow_summary": "",
+    "office_hours_flow_summary": "",
+    "questions_or_unknowns": [],
+    "notes": ""
+}

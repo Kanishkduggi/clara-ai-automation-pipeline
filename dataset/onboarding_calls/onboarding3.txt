@@ -1,0 +1,15 @@
+Company name: Guardian Fire Services
+
+Business hours:
+Monday to Friday
+9 AM to 5 PM
+Timezone: CST
+
+Emergency situations:
+- active alarm
+- sprinkler water flow alarm
+
+Emergency calls should be transferred immediately to on-call technicians.
+
+Address:
+78 Safety Lane, Chicago

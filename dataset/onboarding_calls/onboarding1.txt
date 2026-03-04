@@ -1,0 +1,18 @@
+Company name: ABC Fire Protection
+
+Confirmed business hours:
+Monday to Friday
+8 AM to 6 PM
+Timezone: PST
+
+Emergency definition:
+- sprinkler leak
+- fire alarm triggered
+- active water flow alarm
+
+Emergency calls should be transferred to dispatch immediately.
+
+If transfer fails after 60 seconds, dispatch team must be notified.
+
+Office address:
+123 Industrial Street, Texas

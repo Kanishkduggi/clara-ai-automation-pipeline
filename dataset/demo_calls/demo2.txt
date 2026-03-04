@@ -1,0 +1,13 @@
+Company name: SafeSprink Systems
+
+The company provides:
+- sprinkler system maintenance
+- fire alarm inspection
+- extinguisher servicing
+
+Emergency calls include sprinkler leaks and fire alarms.
+
+The company receives many calls after hours and wants emergency calls transferred immediately.
+
+Address:
+400 Business Park Drive, California

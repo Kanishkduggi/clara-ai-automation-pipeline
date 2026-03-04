@@ -1,0 +1,14 @@
+Company name: Elite Fire Systems
+
+Office hours:
+Monday to Friday
+7 AM to 5 PM
+Timezone: EST
+
+Emergency definition:
+- sprinkler leak
+- building alarm triggered
+
+Emergency calls go to technician hotline.
+
+If transfer fails after 60 seconds, collect caller details and notify dispatch.
