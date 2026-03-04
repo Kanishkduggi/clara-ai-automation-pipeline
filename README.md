@@ -1,3 +1,5 @@
+```
+
 # Clara AI Agent Automation Pipeline
 
 This project automates the generation and versioning of AI voice agents using call transcripts.
@@ -127,5 +129,48 @@ extract_demo_data.py             update_from_onboarding.py
     "timeout_seconds": 60
   }
 }
-```
 
+
+## Limitations
+
+* The extraction pipeline currently uses rule-based parsing instead of a local LLM.
+* Demo transcripts must follow a relatively structured format for reliable extraction.
+* The Retell agent configuration is generated as a JSON draft spec rather than automatically deployed through the Retell API.
+* The n8n workflow currently acts as a trigger for the Python pipeline rather than executing each pipeline step individually.
+
+## Future Improvements
+
+If this system were deployed in production, the following improvements would be implemented:
+
+* Replace rule-based extraction with a local LLM for more robust understanding of transcripts.
+* Add a small dashboard to visualize accounts, versions, and configuration diffs.
+* Store agent specifications in a database (Supabase or PostgreSQL) instead of local JSON files.
+* Add automatic validation of extracted data to prevent malformed configurations.
+* Implement a diff viewer to highlight changes between agent versions (v1 → v2).
+* Add logging and monitoring for pipeline runs.
+
+## Setup Instructions
+
+1. Clone the repository.
+
+2. Install Python dependencies (if required):
+
+pip install -r requirements.txt
+
+3. Ensure the dataset folder contains demo and onboarding transcripts.
+
+4. Run the automation pipeline:
+
+python scripts/run_pipeline.py
+
+5. Generated outputs will appear in:
+
+outputs/accounts/
+
+Each account will contain:
+
+* v1 agent specification generated from demo call
+* v2 updated specification generated from onboarding call
+* changelog describing modifications
+
+```
